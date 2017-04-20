@@ -23,7 +23,11 @@ var FDSClientConfiguration = GalaxyFDS.FDSClientConfiguration;
 
 var client = new FDSClient(accessKey, accessSecret, config);
 
-yield client.createBucket('bucketName');
+co(function *() {
+    yield client.createBucket('bucketName');
+}).then().catch();
+// or
+client.createBucket('bucektName').then().catch();
 ```
 
 ### 上传Object
