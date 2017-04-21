@@ -1,6 +1,6 @@
 {
-  "name": "galaxy-fds-sdk-nodejs",
-  "version": "0.2.0",
+  "name": "galaxy-fds-sdk",
+  "version": "0.2.5",
   "scripts": {
     "test": "mocha"
   },

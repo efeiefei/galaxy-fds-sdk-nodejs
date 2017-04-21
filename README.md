@@ -2,6 +2,7 @@
 ## 简介
 
 Galaxy FDS SDK Nodejs，用户安装SDK后，可以非常容易地调用FDS提供的接口。
+
 Galaxy FDS 是小米云团队推出的文件存储服务。
 
 ## 安装
